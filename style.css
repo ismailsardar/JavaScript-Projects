@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgb(155, 133, 133, 0.9),rgba(155, 133, 133, 0.6)),url(./img/baner.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+.my_div{
+    text-align: center;
+    font-size: larger;
+    color: rgb(0, 6, 10);
+}
+h2{
+    color: rgb(3, 0, 12);
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+button{
+    border: none;
+    color: #ffff;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 10px 0;
+    width: 200px;
+    border-radius: 5px;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+#increment_btn{
+    background-color: darkred;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#increment_btn:hover{
+    transform: scale(1.08);
+}
+#save_btn{
+    background-color: darkgreen;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+#save_btn:hover{
+    transform: scale(1.08);
+}
+#save_pra{
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 10px;
+}
